@@ -1,0 +1,65 @@
+.concept-advert__wrapper {
+    display: flex;
+    padding-top: 150px;
+    margin:0 20px;
+}
+.concept-advert__wrapper.reverse {
+flex-direction: row-reverse;
+}
+.concept-advert__list-item-icon {
+    width: 30px;
+    height: 30px;
+    fill: #18BD4F;
+    margin-right: 20px;
+}
+
+.concept-advert {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 540px);
+    margin: auto 0;
+   
+}
+.concept-advert__img {
+    /* background-size: cover; */
+    width: 540px;
+    height: 715px; 
+    border-radius: 25px;
+    background: url('../../../public/images/adv-1.png') top right;
+    margin-right: 100px;
+    display: flex;
+}
+.concept-advert__img.reverse {
+    margin-right: 0px;
+    margin-left: 100px;
+}
+.concept-advert__title,
+.concept-advert__description {
+ margin-bottom: 30px;
+}
+.concept-advert__title {
+    font-size: 48px;
+}
+
+.concept-advert__description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    line-height: 26px;
+}
+.concept-advert__list-item {
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 26px; */
+    /* margin: auto 0; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+

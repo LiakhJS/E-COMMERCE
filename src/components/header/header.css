@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.header__ecommerce-title {
+    width: 40%;
+    display: flex;
+    color: #18BD4F;
+    left: 100px;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 48px;
+    height: 48px;
+}
+
+.header__nav {
+    font-family: 'Inter';
+    font-style: normal;
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}

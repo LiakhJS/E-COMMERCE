@@ -1,0 +1,36 @@
+.home-page__wrapper {
+    background: url('../../../public/images/top-view.png') top left;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: initial;
+    padding: 50px;
+    padding: 50px 100px;
+    position: relative;
+}
+
+.main-description {
+    font-size: 64px;
+    line-height: 74px;
+}
+
+.main-description__detailed {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.main-description,
+.main-description__detailed {
+    padding-bottom: 30px;
+}
+
+.home-page__inf {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60%;
+
+}
